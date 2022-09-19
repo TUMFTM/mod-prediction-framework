@@ -112,3 +112,15 @@ SARIMAX Model with n x m square inner grid and 4 border cells
 - [Michael Wittmann](https://github.com/michaelwittmann)
 - [Maximilian Speicher](https://github.com/maxispeicher)
 - Jan Koch
+
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```Latex
+@book{wittmann2022,
+    title = {Prädiktive Flottenstrategie für Ridesourcing-Dienste am Beispiel des Münchner Taxiverkehrs},
+    author = {Wittmann, Michael},
+    year = {2022},
+    isbn = {##########}
+}
+```
