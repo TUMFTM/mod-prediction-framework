@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "demandprediction"
+version = "0.3.0"
+description = "A project for predicting the taxi demand in and around Munich."
+authors = ["Michael Wittmann <michael.wittmann@tum.de>", "Maximilian Speicher <maximilian.speicher@tum.de>"]
+
+[tool.poetry.dependencies]
+python = "3.8"
+joblib = "^0.16.0"
+tqdm = "^4.48.0"
+tables = "^3.6.1"
+pydot = "^1.4.1"
+pydotplus = "^2.0.2"
+holidays = "^0.10.3"
+matplotlib = "^3.3.0"
+scikit-learn = "^1.0.2"
+click = "^7.1.2"
+loguru = "^0.5.1"
+python-Levenshtein = "^0.12.0"
+pyfiglet = "^0.8.post1"
+termcolor = "^1.1.0"
+pyproj = "^2.6.1"
+statsmodels = "^0.13.0"
+shapely = "^1.7.1"
+gdal = [
+    { version = "3.4.1", markers = "sys_platform != 'win32'"},
+]
+
+fiona = [
+    { version = "1.8.13", markers = "sys_platform != 'win32'"},
+]
+
+psycopg2={version="^2.8.5", markers = "sys_platform !='darwin'"}
+
+psycopg2-binary={version="^2.8.5", markers = "sys_platform =='darwin'"}
+
+tensorflow = [
+    { version = "^2.3.0", markers = "sys_platform !='darwin'"}
+]
+#tensorflow-macos= [
+#    {version ="^2.7.0", markers= "sys_platform == 'darwin'"}
+#]
+#tensorflow-metal= [
+#    {version ="^0.3.0", markers= "sys_platform == 'darwin'"}
+#]
+
+#
+geopandas = "^0.8.1"
+SQLAlchemy = "^1.4.31"
+pandas = "^1.1.0"
+#tensorboard-plugin-profile = "^2.3.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+pre-commit = "^2.6.0"
+bump2version = "^1.0.0"
+
+[tool.poetry.scripts]
+demandprediction = "demandprediction.main:cli"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
