@@ -117,10 +117,12 @@ SARIMAX Model with n x m square inner grid and 4 border cells
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```Latex
-@book{wittmann2022,
-    title = {Prädiktive Flottenstrategie für Ridesourcing-Dienste am Beispiel des Münchner Taxiverkehrs},
-    author = {Wittmann, Michael},
-    year = {2022},
-    isbn = {##########}
+@phdthesis {
+	author = "Wittmann, Michael",
+	title = "Prädiktive Flottenstrategie für Ridesourcing-Dienste am Beispiel des Münchner Taxiverkehrs",
+	type = "Dissertation",
+	school = "Technische Universität München",
+	address = "München",
+	year = 2022
 }
 ```
