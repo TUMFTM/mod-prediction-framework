@@ -6,7 +6,7 @@ authors = ["Michael Wittmann <michael.wittmann@tum.de>", "Maximilian Speicher <m
 
 [tool.poetry.dependencies]
 python = "3.8"
-joblib = "^0.16.0"
+joblib = "^1.2.0"
 tqdm = "^4.48.0"
 tables = "^3.6.1"
 pydot = "^1.4.1"
